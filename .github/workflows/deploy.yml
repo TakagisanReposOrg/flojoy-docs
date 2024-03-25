@@ -30,7 +30,7 @@ jobs:
       - name: 部署
         uses: s0/git-publish-subdir-action@develop
         env:
-          REPO: https://github.com/RainBreezeMF/flojoy-social-docs-assets
+          REPO: git@github.com:TakagisanReposOrg/flojoy-social-docs.git
           BRANCH: main
           FOLDER: ./dist
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
