@@ -1,0 +1,36 @@
+name: 部署站点导航静态文件
+
+on:
+  push:
+    branches:
+      - main
+
+# 任务
+jobs:
+  build-and-deploy:
+    # 服务器环境：最新版 Ubuntu
+    runs-on: ubuntu-latest
+    steps:
+      # 拉取代码
+      - name: Cheakout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          
+      - name: 安装pnpm
+        run: npm install pnpm -g
+        
+      - name: 安装依赖文件
+        run: pnpm install
+        
+      - name: 生成静态文件
+        run: pnpm build
+
+      # 部署到 公开页面
+      - name: 部署
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: https://github.com/RainBreezeMF/flojoy-social-docs-assets
+          BRANCH: main
+          FOLDER: ./dist
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
