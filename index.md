@@ -6,6 +6,8 @@ hero:
   name: "纷语文档仓"
   text: "欢迎光临~  "
   tagline: "这里提供 <b>纷语驿站</b> 相关信息与帮助页面"
+  image:
+    src: https://pic.imgdb.cn/item/660294819f345e8d0321dcca.png
   actions:
     - theme: brand
       text: 查看文档

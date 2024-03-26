@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { Analytics } from 'dappling-analytics/react'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,6 +10,9 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+
+    logo: "https://pic.imgdb.cn/item/660294819f345e8d0321dcca.png",
+
     nav: [
       { text: '文档', link: '/' },
       { text: '主站', link: 'https://flojoy.fun' },
