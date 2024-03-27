@@ -63,4 +63,3 @@
 
 
 [ActivityPub]: https://activitypub.rocks
-[合理使用规约]: /aup/
