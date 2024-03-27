@@ -38,7 +38,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/RainBreezeMF/flojoy-docs' }
+      { icon: 'github', link: 'https://github.com/TakagisanReposOrg/flojoy-docs' }
     ],
 
     search: {
