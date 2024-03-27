@@ -11,7 +11,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
-    logo: "https://pic.imgdb.cn/item/660294819f345e8d0321dcca.png",
+    logo: {
+      src: 'https://pic.imgdb.cn/item/660294819f345e8d0321dcca.png',
+      alt: "全站图标",
+    }, 
 
     nav: [
       { text: '文档', link: '/' },
