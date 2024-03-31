@@ -11,7 +11,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
-    logo: "https://pic.imgdb.cn/item/660294819f345e8d0321dcca.png",
+    logo: {
+      src: 'https://pic.imgdb.cn/item/660294819f345e8d0321dcca.png',
+      alt: "全站图标",
+    }, 
 
     nav: [
       { text: '文档', link: '/' },
@@ -21,10 +24,9 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '规例',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '服务条款', link: '/tos' },
         ]
       }
     ],
@@ -35,7 +37,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/RainBreezeMF/flojoy-docs' }
+      { icon: 'github', link: 'https://github.com/TakagisanReposOrg/flojoy-docs' }
     ],
 
     search: {
