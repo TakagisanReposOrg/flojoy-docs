@@ -31,7 +31,7 @@ export default defineConfig({
 
     footer: {
       message: '基于 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans">CC-BY-SA-4.0</a> 授权<br>本文档部分内容&素材来自 <a href="https://docs.nya.one/">喵窝 (NyaOne)</a>',
-      copyright: 'Copyright © 2024 <a href="https://takagi3.top">木创社Team</a>'
+      copyright: 'Copyright © 2023-2024 <a href="https://takagi3.top">木创社Team</a>'
     },
 
     socialLinks: [
