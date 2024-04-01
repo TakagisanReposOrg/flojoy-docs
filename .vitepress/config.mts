@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { Analytics } from 'dappling-analytics/react'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -22,14 +21,40 @@ export default defineConfig({
       { text: '赞助', link: 'https://afdian.net/a/LightRainbow' }
     ],
 
-    sidebar: [
-      {
-        text: '规例',
-        items: [
-          { text: '服务条款', link: '/tos' },
-        ]
-      }
-    ],
+    sidebar: {
+      "/": [
+        {
+          text: "基础规范",
+          items: [
+            {
+              text: "加入",
+              link: "/join/",
+            },
+            {
+              text: "服务条款",
+              link: "/tos/",
+            },
+            {
+              text: "合理使用规约",
+              link: "/aup/",
+            },
+          ],
+        },
+        {
+          text: "其它",
+          items: [
+            {
+              text: "服务架构",
+              link: "/service-structure/",
+            },
+            {
+              text: "联系我们",
+              link: "/contact/",
+            },
+          ],
+        },
+      ],
+    },
 
     footer: {
       message: '基于 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans">CC-BY-SA-4.0</a> 授权<br>本文档部分内容&素材来自 <a href="https://docs.nya.one/">喵窝 (NyaOne)</a>',
