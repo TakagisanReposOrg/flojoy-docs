@@ -18,7 +18,7 @@ export default defineConfig({
     nav: [
       { text: '文档', link: '/' },
       { text: '主站', link: 'https://flojoy.fun' },
-      { text: '赞助', link: 'https://afdian.net/a/LightRainbow' }
+      { text: '赞助', link: '/donate' }
     ],
 
     sidebar: {
@@ -50,6 +50,10 @@ export default defineConfig({
             {
               text: "联系我们",
               link: "/contact/",
+            },
+            {
+              text: "赞助",
+              link: "/donate/",
             },
           ],
         },
