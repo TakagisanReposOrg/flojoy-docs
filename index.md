@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 查看文档
-      link: /markdown-examples
+      link: /join
     - theme: alt
-      text: 关于我们
-      link: /api-examples
+      text: 联络我们
+      link: /contact
 
 features:
   - icon: 
