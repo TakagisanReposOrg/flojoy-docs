@@ -10,6 +10,6 @@
 
 如非必要，请不要私聊其他用户，以避免带来困扰。
 
-用户QQ群：863463228
-站内可私信公号：@offical@flojoy.fun
-反馈邮箱：info@mail.flojoy.fun
+- 用户QQ群：863463228
+- 站内可私信公号：@offical@flojoy.fun
+- 反馈邮箱：info@mail.flojoy.fun
