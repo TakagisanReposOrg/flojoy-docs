@@ -265,9 +265,7 @@ Fediverse 系列的开放性为每一个实例都提供了无限的可能，之�
 - 如若您检举的是监察员行为，请参照[联系我们]中的描述向管理员团队发送信息。
 
 [检举说明]: #检举说明
-[基于 Misskey 平台的周边生态开发]: /develop/peripheral/
 [联系我们]: /contact/
-[网站备份]: /appendix/#网站备份
 [服务架构]: /service-structure/
 
 [NSFW]: https://zh.wikipedia.org/wiki/NSFW
